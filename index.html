@@ -1,11 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Assignment</title>
 </head>
+
 <body>
-  
+  <section class="global-wrap">
+    <header class="header">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-list-item active-nav-item"><a href="#">home</a></li>
+          <li class="nav-list-item"><a href="#">about</a></li>
+          <li class="nav-list-item"><a href="#">services</a></li>
+          <li class="nav-list-item"><a href="#">more info</a></li>
+          <li class="nav-list-item"><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <div class="contact-searchbar-wrap">
+        <div class="contact">
+          <img src="assets/phone-icon.png" alt="phone">
+          <span>+91 999982965</span>
+        </div>
+        <div class="searchbar">
+          <img src="assets/search.png" alt="search" class="search-icon">
+          <input type="text" placeholder="search hospitals" class="search-input"/>
+        </div>
+      </div>
+      <div class="menu-toggle">
+        <img src="assets/menu.png" alt="menu" class="menu">
+      </div>
+    </header>
+
+    <main>
+      <section class="main-content-wrap">
+        <!-- Start of Section where all data coming from API -->
+        <div class="hospital-info">
+          <p class="hospital-greeting"></p>
+          <h1 class="hospital-title"></h1>
+          <p class="hospital-details">
+            <span class="hospital-details description"></span>
+            <span class="more"><a href="#">Show More</a></span>
+          </p>
+          <button class="styled-btn"></button>
+        </div>
+     <!-- End of Section where all data coming from API -->
+        <!-- Time Slot area -->
+        <div class="time-slot-wrap">
+          <div class="time-slot">
+            <ul class="time-slot-list">
+              <li class="time-slot-list-item active">Book Appoinment</li>
+              <li class="time-slot-list-item"> Have an enquiry </li>
+            </ul>
+            <div class="dropdown">
+              <fieldset class="outline">
+                <legend>
+                  Purpose
+                </legend>
+                <span class="dwn-arrow"></span>
+                <select class="styled-select">
+                  <option>Select an option</option>
+                  <option>Consultation</option>
+                  <option>Appointment</option>
+                </select>
+              </fieldset>
+            </div>
+            <ul class="date-list">
+              <li class="date-list-item"><span class="left-arrow"></span></li>
+              <li class="date-list-item"><span class="today-date"></span><span class="closing">)</span> </li>
+              <li class="date-list-item"><span class="right-arrow next"></span></li>
+            </ul>
+            <div class="time-slot-data">
+              <table>
+                <tr>
+                  <th rowspan="3" class="morning-headings">
+                    <img src="assets/morning.png" alt="morning" class="morning-icon timing-icon">
+                    <p class="morning timing-title">Morning</p>
+                  </th>
+                  <td tooltip="Slot is Available" flow="down">10:00 AM</td>
+                  <td tooltip="Slot is Available" flow="down">10:30 AM</td>
+                  <td class="time-disabled">11:00 AM</td>
+                </tr>
+
+                <tr>
+                  <td class="time-disabled">11:30 AM</td>
+                  <td class="time-disabled">12:00 PM</td>
+                  <td class="time-disabled">-</td>
+                </tr>
+
+                <tr>
+                  <td tooltip="Slot is Available">01:00 PM</td>
+                  <td class="time-disabled">01:30 PM</td>
+                  <td class="time-disabled">02:00 PM</td>
+                </tr>
+
+                <tr>
+                  <th rowspan="3">
+                    <img src="assets/evening.png" alt="evening" class="evening-icon timing-icon">
+                    <p class="evening timing-title">evening</p>
+                  </th>
+                  <td tooltip="Slot is Available">02:30 PM</td>
+                  <td class="time-disabled">-</td>
+                  <td class="time-disabled">-</td>
+                </tr>
+                <tr>
+                  <td class="time-disabled">04:00 PM</td>
+                  <td class="time-disabled">-</td>
+                  <td tooltip="Slot is Available">05:00 PM</td>
+                </tr>
+                <tr>
+                  <td tooltip="Slot is Available">05:30 PM</td>
+                  <td tooltip="Slot is Available">06:00 PM</td>
+                  <td class="time-disabled">06:30 PM</td>
+                </tr>
+
+                <tr>
+                  <th rowspan="3">
+                    <img src="assets/night.png" alt="night" class="night-icon timing-icon">
+                    <p class="night timing-title">night</p>
+                  </th>
+                  <td tooltip="Slot is Available">07:00 PM</td>
+                  <td tooltip="Slot is Available">07:30 PM</td>
+                  <td class="time-disabled">-</td>
+                </tr>
+
+                <tr>
+                  <td class="time-disabled">08:30 PM</td>
+                  <td tooltip="Slot is Available">09:00 PM</td>
+                  <td class="time-disabled">09:30 PM</td>
+                </tr>
+
+                <tr>
+                  <td tooltip="Slot is Available">10:00 PM</td>
+                  <td class="time-disabled">-</td>
+                  <td class="time-disabled">-</td>
+                </tr>
+              </table>
+            </div>
+            <!-- continue button -->
+            <div class="continue-btn">
+              <button class="btn btn-submit">continue</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </section>
+  <footer></footer>
+  <script src="scripts/app.js"></script>
 </body>
+
 </html>
