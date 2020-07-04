@@ -1,0 +1,51 @@
+{
+  "details":[
+    {
+      "id": "1",
+      "greeting": "welcome to",
+      "name": "dixit healing chamber",
+      "description": "Homeopathic clinic of Dr. Shravan Dixit is located in jubile Hills, Hydrabad. The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book..",
+      "buttonText": "meet the doctor"
+    },
+
+    {
+      "id": "2",
+      "greeting": "welcome to",
+      "name": "abc Homiopathic center",
+      "description": "Homeopathic clinic of Dr. Shravan Dixit is located in jubile Hills, Hydrabad. The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book.",
+      "buttonText": "make appoint to doctor"
+    },
+
+    {
+      "id": "3",
+      "greeting": "welcome to",
+      "name":  "xyz Homiopathic center",
+      "description": "Homeopathic clinic of Dr. Shravan Dixit is located in jubile Hills, Hydrabad. The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "buttonText": "consult the doctor"
+    },
+
+    {
+      "id": "4",
+      "greeting": "welcome to",
+      "name":  "xyz Aurvadic center",
+      "description": "Aurvadic clinic of Dr. Shravan Dixit is located in jubile Hills, Mumbai. The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "buttonText": "consult the doctor"
+    },
+
+    {
+      "id": "5",
+      "greeting": "welcome to",
+      "name":  "xyz Medical center",
+      "description": "Homeopathic clinic of Dr. Shravan Dixit is located in janakPuri Delhi, . The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "buttonText": "consult the doctor"
+    },
+
+    {
+      "id": "6",
+      "greeting": "welcome to",
+      "name":  "SVN Medical Store",
+      "description": "SVN clinic of Dr. Shravan Dixit is located in , Nagpur. The clinic was established in 2006 and one of the most reputed in the vicinty. guided by clear vision type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "buttonText": "consult the doctor"
+    }
+  ]
+}
