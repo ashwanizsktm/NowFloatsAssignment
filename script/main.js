@@ -14,7 +14,7 @@ async function getData(data) {
 
 getData('details').then(res => {
   let loadedData = res;
-  console.log(loadedData);
+  console.log('Data from the server:',loadedData);
   let requiredData = loadedData[0];
   greeting.innerText = requiredData.greeting;
   hospitalTitle.innerHTML = requiredData.name;
