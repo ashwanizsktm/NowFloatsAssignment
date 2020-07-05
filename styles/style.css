@@ -130,10 +130,10 @@ nav ul li a:hover {
   outline: none;
 }
 
-input[type='text'] {
+.searchbar input[type='text'] {
   border-radius: 20px;
   height       : 30px;
-  padding      : 8px;
+  padding      : 6px;
   border       : 1px solid var(--text-primary-color);
 }
 
@@ -242,6 +242,11 @@ main {
   color        : #1ce6e2;
   border-bottom: 1px solid var(--arrow-background);
   box-shadow   : 0 2px var(--arrow-background);
+}
+
+.active-item {
+  background-color: var(--arrow-background);
+  color           : var(--primary-color);
 }
 
 .dropdown {
@@ -372,9 +377,7 @@ tr td {
 
 table,
 td:hover {
-  background-color: var(--arrow-background);
-  color           : var(--primary-color);
-  cursor          : pointer;
+  cursor: pointer;
 }
 
 .timing-icon {
@@ -396,9 +399,8 @@ td:hover {
 }
 
 .time-disabled:hover {
-  cursor          : no-drop;
-  background-color: var(--primary-color);
-  color           : var(--text-light-color);
+  cursor        : no-drop;
+  pointer-events: none;
 }
 
 /* START TOOLTIP STYLES */

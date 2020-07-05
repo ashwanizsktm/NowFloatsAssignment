@@ -6,7 +6,7 @@ let btnText = document.querySelector('.styled-btn');
 
 // getting the hospital details using API.
 async function getData(data) {
-  const baseUrl = '  http://localhost:3000/';
+  const baseUrl = 'http://localhost:3000/';
   const response = await fetch(baseUrl + data);
   const responseData = await response.json();
   return responseData;
@@ -30,7 +30,7 @@ dateList.textContent = `Today (${today}`;
 var tomorrow = new Date();
 tomorrow.setDate(tomorrow.getDate() + 1);
 let next = document.querySelector('.date-list-item:nth-child(3)');
-next.addEventListener('click', ()=> {
+next.addEventListener('click', () => {
   dateList.textContent = dateList.textContent.replace(`Today (${today}`, `Tomorrow( ${tomorrow}`);
 });
 
@@ -63,3 +63,17 @@ input.addEventListener('click', () => {
   searchIcon.style.display = 'none';
 });
 
+//  Time slot availability Active boxes
+var activeSlot = document.getElementsByClassName("active-slot");
+
+function activeTimeSlot(e) {
+  let elems = document.getElementsByClassName("active-item");
+  Array.from(elems, (el) => {
+    el.classList.remove("active-item");
+  });
+  e.target.className = "active-item";
+}
+
+for(let i = 0; i < activeSlot.length; i++){
+  activeSlot[i].addEventListener('click', activeTimeSlot);
+}
