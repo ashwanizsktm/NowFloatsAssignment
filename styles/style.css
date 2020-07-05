@@ -482,7 +482,7 @@ td:hover {
 [tooltip][flow^="down"]::before {
   top                : 100%;
   border-top-width   : 0;
-  border-bottom-color: #333;
+  border-bottom-color: blueviolet;
 }
 
 [tooltip][flow^="down"]::after {
